@@ -266,7 +266,7 @@ int main()
     myList.insertLast(40);
     myList.insertLast(30);
     
-    /*cout << "before insert first: ";
+    cout << "before insert first: ";
     myList.Display();
     //test insertFirst
     myList.insertFirst(5);
@@ -305,13 +305,13 @@ int main()
     cout << "deleting the last element: ";
     myList.DeleteLast();
     myList.Display();
-    */
+    
 
     //test bubble sort
-    cout << "before apply bubbleSort: ";
+   /* cout << "before apply bubbleSort: ";
     myList.Display();
     myList.BubbleSort();
     cout << "after apply BubbleSort: ";
-    myList.Display();
+    myList.Display();*/
     return 0;
 }
